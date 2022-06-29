@@ -26,7 +26,7 @@ const App = () => {
       <Header text='LeoVegas' />
       {loading && (
         <main className='min-h-screen  w-full bg-gradient-to-r from-slate-800 to-black py-4 px-5 flex flex-col text-center pt-12'>
-          <div className='bg-gradient-to-r md:w-full max-w-[800px] mx-auto  from-pink-500 to-violet-500 rounded-md pt-6 pb-10'>
+          <div className='bg-gradient-to-r w-full max-w-[800px] mx-auto  from-pink-500 to-violet-500 rounded-md pt-6 pb-10'>
             <h1 className='text-lg md:text-xl font-bold tracking-wider pb-3'>Loading...</h1>
           </div>
         </main>
